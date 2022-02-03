@@ -215,7 +215,7 @@ kurr.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
    // owner
 
 
-    const htod = "6281220670449@s.whatsapp.net"
+    const htod = "62858800040578@s.whatsapp.net"
 
     
 kurr.on("CB:Call", json => {
@@ -309,7 +309,7 @@ kurr.on('group-participants-update', async (anu) => {
 
 				teks = ` Hi @${num.split('@')[0]}\nSELAMAT DATANG DI\nDI *${mdata.subject}*\nJANGAN LUPA BACA RULES☺`
 
-				sendButImage(anu.jid, teks, `Xavhier bot`, img,but = [{buttonId:`apaaja`, 
+				sendButImage(anu.jid, teks, `Rifky bot`, img,but = [{buttonId:`apaaja`, 
 
                buttonText:{displayText: 'WELCOME'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
@@ -404,8 +404,8 @@ kurr.on('group-update', async (anu) => {
 	})
     kurr.on('chat-update', async (message) => {
         require('./kurr.js')(kurr, message)
-        ownerNumber = ["6281220670449@s.whatsapp.net","6281220670449@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "6281220670449@s.whatsapp.net"
+        ownerNumber = ["62858800040578@s.whatsapp.net","6285880004057@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "62858800040578@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })  
 }
